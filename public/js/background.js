@@ -49,6 +49,9 @@ function setCubeColor(section) {
     case "about":
       cube.material.color = new THREE.Color(0x03fc90);
       break;
+    case "experience":
+      cube.material.color = new THREE.Color(0x5778ff);
+      break;
     case "skills":
       cube.material.color = new THREE.Color(0xfc9d03);
       break;
